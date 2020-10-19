@@ -42,18 +42,18 @@ body, html {
         }
     }
 
-    .ListGroup {
+    ul {
         list-style-type:none;
-        margin:10px;
+        margin:0;
         padding:0;
-    }
 
-        .listGroupItem {
+        li {
+
             align-items: center;
             display:flex;
             flex-direction:row;
             font-size: .75em;
-            padding: 0;
+            margin: .75em .5em;
 
             &.complete-true {
               span {
@@ -75,7 +75,7 @@ body, html {
              span, input {
                  border: .5px solid #eee;
                  display:inline-block;
-                 padding: 10px;
+                 padding: .2em .25em;
                  width: 300px;
              }
 
@@ -87,6 +87,8 @@ body, html {
                 padding:0;
                 margin: 0 .75em;
             }
-            
+
         }
     }
+
+}
