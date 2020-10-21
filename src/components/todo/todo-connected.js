@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import TodoForm from './form.js';
 import TodoList from './list.js';
 import useAjax from '../../hooks/useAjax';
+import Control from './control';
+
 
 import './todo.scss';
 
@@ -84,6 +86,14 @@ const ToDo = () => {
         <div>
           <TodoForm handleSubmit={_addItem} />
         </div>
+
+        
+        <div>
+             <Control/>
+
+             </div>
+
+
 
         <div>
           <TodoList
