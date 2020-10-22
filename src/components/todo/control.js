@@ -1,4 +1,4 @@
-import React, { useContext,useEffect } from 'react';
+import React, { useContext } from 'react';
 
 import { SiteContext } from '../../context/site'
 
@@ -35,10 +35,9 @@ function Control(props) {
             <button onClick={_toggleComplete} >Show complete</button>
             
                 <select onChange={_setResultesPerPage} className="dropdownmenu" id="dropdownmenu" name="dropdownmenu">
-
                     <option value="5">5</option>
                     <option value="10">10</option>
-                    <option value="15">15</option>                    
+                    <option value="15">15</option>                
 
                 </select>
 
