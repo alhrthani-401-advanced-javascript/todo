@@ -5,7 +5,7 @@ export const SiteContext = React.createContext();
 
 function SiteProvider(props) {
     const [displayComplete, setDisplayComplete] = useState(false);
-    const [itemsPerPage, setItemsPerPage] = useState(3);
+    const [itemsPerPage, setItemsPerPage] = useState(5);
     const [sorting, setSorting] = useState('byName');
     //[byName, byDifficulty, byAsignee]
     
